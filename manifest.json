@@ -1,51 +1,84 @@
 {
-  "background_color": "#ffffff",
-  "description": "Je",
-  "dir": "ltr",
+  "name": "TaskFlow - Task Manager",
+  "short_name": "TaskFlow",
+  "description": "A beautiful mobile task management app",
+  "start_url": "/index.html",
   "display": "standalone",
-  "name": "capital app",
-  "orientation": "any",
+  "background_color": "#4f46e5",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait",
   "scope": "/",
-  "short_name": "capital",
-  "start_url": "/",
-  "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "https://019b3784-1915-7b1c-9aca-aa0bf9f642b2.arena.site/favicon.ico",
-      "type": "image/x-icon",
-      "isSquare": false,
-      "isPng": false,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 0,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect fill='%234f46e5' width='48' height='48' rx='10'/%3E%3Cpath fill='white' d='M35 15H13c-1.7 0-3 1.3-3 3v20c0 1.7 1.3 3 3 3h22c1.7 0 3-1.3 3-3V18c0-1.7-1.3-3-3-3zm-14 19l-6-6 2.1-2.1L21 29.8l8.9-8.9 2.1 2.1-11 11z'/%3E%3Crect fill='white' x='14' y='9' width='20' height='3' rx='1.5'/%3E%3C/svg%3E",
+      "sizes": "48x48",
+      "type": "image/svg+xml",
+      "purpose": "any"
     },
     {
-      "src": "https://screenshot-taker-prod.weichiang.workers.dev/message/019b3784-1915-7b1c-9aca-aa0bf9f642b2/og-image.webp",
-      "type": "image/webp",
-      "sizes": "2400x1260",
-      "isSquare": false,
-      "isPng": false,
-      "isWebp": true,
-      "isJpg": false,
-      "width": 2400,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 72 72'%3E%3Crect fill='%234f46e5' width='72' height='72' rx='15'/%3E%3Cpath fill='white' d='M52.5 22.5h-33c-2.5 0-4.5 2-4.5 4.5v30c0 2.5 2 4.5 4.5 4.5h33c2.5 0 4.5-2 4.5-4.5V27c0-2.5-2-4.5-4.5-4.5zM31.5 51l-9-9 3.2-3.2 5.8 5.8 13.3-13.3 3.2 3.2-16.5 16.5z'/%3E%3Crect fill='white' x='21' y='13.5' width='30' height='4.5' rx='2.25'/%3E%3C/svg%3E",
+      "sizes": "72x72",
+      "type": "image/svg+xml",
+      "purpose": "any"
     },
     {
-      "src": "https://019b3784-1915-7b1c-9aca-aa0bf9f642b2.arena.site/favicon.ico",
-      "type": "image/x-icon",
-      "isSquare": false,
-      "isPng": false,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 0,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect fill='%234f46e5' width='96' height='96' rx='20'/%3E%3Cpath fill='white' d='M70 30H26c-3.3 0-6 2.7-6 6v40c0 3.3 2.7 6 6 6h44c3.3 0 6-2.7 6-6V36c0-3.3-2.7-6-6-6zM42 68l-12-12 4.2-4.2L42 59.6l17.8-17.8L64 46 42 68z'/%3E%3Crect fill='white' x='28' y='18' width='40' height='6' rx='3'/%3E%3C/svg%3E",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect fill='%234f46e5' width='128' height='128' rx='28'/%3E%3Cpath fill='white' d='M93 40H35c-4.4 0-8 3.6-8 8v53c0 4.4 3.6 8 8 8h58c4.4 0 8-3.6 8-8V48c0-4.4-3.6-8-8-8zM56 91L40 75l5.7-5.7L56 79.6l23.3-23.3L85 62 56 91z'/%3E%3Crect fill='white' x='37' y='24' width='54' height='8' rx='4'/%3E%3C/svg%3E",
+      "sizes": "128x128",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect fill='%234f46e5' width='192' height='192' rx='40'/%3E%3Cpath fill='white' d='M140 60H52c-6.6 0-12 5.4-12 12v80c0 6.6 5.4 12 12 12h88c6.6 0 12-5.4 12-12V72c0-6.6-5.4-12-12-12zM84 136l-24-24 8.5-8.5L84 119l35.5-35.5 8.5 8.5L84 136z'/%3E%3Crect fill='white' x='56' y='36' width='80' height='12' rx='6'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect fill='%234f46e5' width='512' height='512' rx='100'/%3E%3Cpath fill='white' d='M373 160H139c-17.7 0-32 14.3-32 32v213c0 17.7 14.3 32 32 32h234c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zM224 363l-64-64 22.6-22.6L224 318l89.4-89.4L336 251 224 363z'/%3E%3Crect fill='white' x='149' y='96' width='213' height='32' rx='16'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect fill='%234f46e5' width='512' height='512'/%3E%3Cpath fill='white' d='M373 160H139c-17.7 0-32 14.3-32 32v213c0 17.7 14.3 32 32 32h234c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zM224 363l-64-64 22.6-22.6L224 318l89.4-89.4L336 251 224 363z'/%3E%3Crect fill='white' x='149' y='96' width='213' height='32' rx='16'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Add New Task",
+      "short_name": "Add Task",
+      "description": "Quickly add a new task",
+      "url": "/index.html?action=add",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect fill='%2310b981' width='96' height='96' rx='20'/%3E%3Cpath stroke='white' stroke-width='8' stroke-linecap='round' d='M48 24v48M24 48h48'/%3E%3C/svg%3E",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "View Tasks",
+      "short_name": "Tasks",
+      "description": "View all your tasks",
+      "url": "/index.html",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect fill='%236366f1' width='96' height='96' rx='20'/%3E%3Cpath fill='white' d='M70 30H26c-3.3 0-6 2.7-6 6v40c0 3.3 2.7 6 6 6h44c3.3 0 6-2.7 6-6V36c0-3.3-2.7-6-6-6zM42 68l-12-12 4.2-4.2L42 59.6l17.8-17.8L64 46 42 68z'/%3E%3Crect fill='white' x='28' y='18' width='40' height='6' rx='3'/%3E%3C/svg%3E",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
     }
   ]
 }
